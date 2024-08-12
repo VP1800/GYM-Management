@@ -1,0 +1,79 @@
+table, td, th {
+    border: 0.5px solid #E5E4E2;
+    text-align: center;
+    
+  }
+  
+  td  {
+     padding-top: 2%;
+     
+  
+  
+  }
+  body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url("image/show.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+  }
+  h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px; 
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0.5px;
+  }
+  table tbody tr:nth-child(odd){
+        background: white;  
+  }
+  table tbody tr:nth-child(even){
+        background: #dddddd;
+        border-bottom: 1px solid #b4b4b4;
+        border-top: 1px solid #b4b4b4;
+  }
+  #DataTables_Table_0_filter{
+    margin-bottom: 14px;
+    margin-top: 10px;
+  }
+  #DataTables_Table_0_length{
+    margin-bottom: 14px;
+    margin-top: 10px;
+  }
+  .container-fluid{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+  }
+  .h_name
+  {
+    position: sticky;
+    top:0;
+    text-shadow: 8px 6px 8px black;
+    color: white;
+    font-weight: 600;
+  }
+  .w3-card{
+    border-radius: 0.35rem;
+    background: #dddddd;
+  }
+  tr{
+    background: black; 
+    color: #f2f2f2;
+  }
+  td{
+    color: black;
+  }
+  .fa-trash{
+    color: red;
+  }
+  .fa-share{
+    color: green;
+  }
+  
+  a{
+      text-decoration: none;
+  }

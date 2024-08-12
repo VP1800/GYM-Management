@@ -1,0 +1,47 @@
+b{
+    color:red;
+    position: relative;
+    margin:none;
+    right:1.5%;
+    top:0;
+    float:right ;
+  }
+  .design {
+    width: 95%;
+  }
+  .lo{
+    color:#00ff00;
+  } 
+  .img {
+    background-image: url("../css/image/enquiry.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 91.8vh;
+    
+    /* height: 200pt; */
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .design {
+      margin-bottom: 5%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .con {
+      margin-bottom: 5%;
+      height: 120vh;
+    }
+  }
+  input::-webkit-input-placeholder:after /* Only for Chrome */
+{
+   color:red;
+   content:"*";
+   opacity: 1
+}
+  .nomargin{
+    margin: 0px;
+  }
